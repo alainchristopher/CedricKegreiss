@@ -70,6 +70,7 @@ float:inline;
 padding-left: 10px;
 } */
 
+/* Titel von Projekten */
 h2{
 font-weight:400;
 font-size:30px;
@@ -78,6 +79,7 @@ font-size:30px;
 padding-right:20px;
 }
 
+/* Kleiner text e.g. Konzept und Gestaltung */
 h3{
 margin-top:-20px;
 margin-left:3px;
@@ -85,6 +87,7 @@ font-weight:400;
 font-size: 16px;
 }
 
+/* Fliesstext */
 p{
 font-weight:200;
 float:left;

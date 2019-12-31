@@ -3,15 +3,18 @@
 <html>
 
 <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-    <meta property="og:type" content="website"/>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta property="og:type" content="website">
     
-<meta property="og:title"content="Home" />
-<meta property="og:description" content="Cedric Kegreiss" />
-<meta name="description" content="Grafik Design" />
-<meta name="keywords" content="Art, Illustration, Design, Graphic, Typography, Cedric, Kegreiss" />
-<meta name="author" content="Cedric Kegreiss"/>
+<meta property="og:title"content="Home">
+<meta property="og:description" content="Cedric Kegreiss">
+<meta name="description" content="Grafik Design">
+<meta name="keywords" content="Art, Illustration, Design, Graphic, Typography, Cedric, Kegreiss">
+<meta name="author" content="Cedric Kegreiss">
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.lazyload/1.9.1/jquery.lazyload.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"
+			  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+			  crossorigin="anonymous"></script>
 
               
    
@@ -26,15 +29,33 @@
 <nav>
     <a class="h1Left" href="#">Cedric Kegreiss</a>
     <a class="infoButton" href="about.html">Info</a>
-        <a href="about.html" class="nav">Filter</a>
+        <!-- <a href="about.html" class="nav">Filter</a> -->
         <!-- <a href="contact.html" class="nav">Contact</a>         -->
+        <!-- FILTERS CONTAINER -->
+        <a  href="#" id="activeFilter" class="show-filters nav">Filter</a>
+        <div id="filters" class="container">
+            <ul class="filters-list">
+              <li> <a class="filters all" data-filter=".all">Alle</a> 
+              </li>
+              <li> <a id="bord"  class="filters Corporate" data-filter=".Corporate">Corporate</a> 
+              </li>
+            <li> <a id="rot"  class="filters Grafik" data-filter=".Grafik">Grafik</a> 
+              </li>
+               <li><a id="vio"  class="filters Publik" data-filter=".Publik">Publik</a>
+              </li>
+              <li><a id="orange"  class="filters Fotografie" data-filter=".Fotografie">Fotografie</a>
+              </li>
+               <li> <a id="braun" class="filters Digital" data-filter=".Digital">Digital</a>
+              </li>
+               </ul>
+            </div>
 </nav>  
 
 </header>
 <body>
 
     <!-- Start Projekt 1 -->
-    <section class="project1 half">
+    <section class="project1 half filterSection" data-category="all,Grafik" data-sort="Grafik">
         <!-- start Beschrieb -->
     <div id="rot" id="first" class="text half">
        <h2 >
@@ -56,7 +77,7 @@
        <!-- Ende Projekt 1 -->
 
           <!-- Start Projekt 2 -->
-    <section class="project2 half">
+    <section class="project2 half filterSection" data-category="all,Publik" data-sort="Publik">
    
 
         <!-- start Beschrieb -->
@@ -82,7 +103,7 @@
 
 
              <!-- Start Projekt 3 -->
-    <section class="project3 half">
+    <section class="project3 half filterSection" data-category="all,Corporate" data-sort="Corporate">
     
         <!-- start Beschrieb -->
     <div class="text half">
@@ -114,7 +135,7 @@
 <!-- <a href="imprint.html" class="imprint">Imprint</a> -->
 <!-- <a href="privacy.html" class="imprint">Privacy</a> -->
     <p class="footer">Copyright 2019 Cedric Kegreiss</p>
-    <!-- <script src="menue.js"></script> -->
+    <script src="assets/Javascript/filter.js"></script>
 </footer>
 
 </html>
