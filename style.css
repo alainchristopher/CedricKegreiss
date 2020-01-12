@@ -156,16 +156,30 @@ section.about{
   height:80vh;
 }
 
-section.project1{
-    border-bottom:#A23FA2 solid 2px;
+section.projectPublik{
+    border-top:#A23FA2 solid 2px;
     width:100vw;
     margin-left:-8px;
 }
-section.project2{
-    border-bottom:black solid 2px;
+section.projectGrafik{
+  border-top:#FC0048 solid 2px;
+  width:100vw;
+  margin-left:-8px;
+}
+section.projectEnde{
+    border-top:black solid 2px;
     width:100vw;
     margin-left:-8px;
 }
+section.projectCorporate{
+  border-top:#BD687F solid 2px;
+  width:100vw;
+  margin-left:-8px;
+}
+#firstNoBorder{
+  border:none;
+}
+
 section.about{
     border-bottom:black solid 2px;
     width:100vw;
@@ -236,11 +250,11 @@ img.projekt{
   margin-bottom:-5px;
 }
 
-  div.image-1 {
+  div.image-Fwein {
     background-image: url(assets/imgs/2_5_Website_Freidorf_Weinetikette/2_5_a_Vorschaubild/2_5_Vorschaubild_Freidorf_Weinetikette_FC0048.png);
   }
   
-  div.image-1:hover {
+  div.image-Fwein:hover{
     background-image: url(assets/imgs/2_5_Website_Freidorf_Weinetikette/2_5_a_Vorschaubild/2_5_Vorschaubild_Freidorf_Weinetikette.png);
     transition-delay:0.1s;
     transition-timing-function: ease
@@ -248,23 +262,24 @@ img.projekt{
     -webkit-animation-fill-mode: backwards;
   }
 
-  div.image-2 {
-    background-image: url(assets/imgs/ImagesProjekte/Projektbild_Freidorf_Informati.png);
+  div.image-FinfoTafel {
+    background-image: url(assets/imgs/3_2_Website_Freidorf_Informationstafeln/3_2_a_Vorschaubild/3_2_Vorschaubild_Freidorf_Informationstafeln_A23FA2.png);
   }
   
-  div.image-2:hover {
-    background-image: url(assets/imgs/ImagesProjekte/Projektbild_Freidorf_Informationstafeln.jpeg);
+  div.image-FinfoTafel:hover {
+    background-image: url(assets/imgs/3_2_Website_Freidorf_Informationstafeln/3_2_a_Vorschaubild/3_2_Vorschaubild_Freidorf_Informationstafeln.png);
     transition-delay:0.1s;
     transition-timing-function: ease
     -webkit-animation: reveal 2s ease;
     -webkit-animation-fill-mode: backwards;
   }
 
-  div.image-3 {
-    background-image: url(assets/imgs/ImagesProjekte/Projektbild_JKF_Weichzeichner.jpeg);
+  div.image-JKF {
+    background-image:cover;
+    background-image: url(assets/imgs/1_1_Website_JKF/1_1_a_Vorschaubild/1_1_Vorschautbild_JKF_BD687F.png);
   }
-  div.image-3:hover {
-    background-image: url(assets/imgs/ImagesProjekte/Projektbild_JKF.jpeg);
+  div.image-JKF:hover {
+    background-image: url(assets/imgs/1_1_Website_JKF/1_1_a_Vorschaubild/1_1_Vorschautbild_JKF.png);
     transition-delay:0.1s;
     transition-timing-function: ease
     -webkit-animation: reveal 2s ease;
@@ -285,7 +300,8 @@ img.projekt{
 .main-container {
   display: flex;
   width: 100%;
-  height: 75%;
+  height: 100%;
+  top: 72px;
   max-height:100%;
 }
 
@@ -294,6 +310,15 @@ img.projekt{
   min-height: 100%;
   min-width: 50%;
   padding-left:14px;
+  align-items: flex-start;
+}
+.text-container{
+  position: -webkit-sticky;
+  position: sticky;
+  margin-top:-25px;
+  top:3rem;
+  padding-top:15px;
+  background-color:white;
 }
 
 .right-container {
@@ -362,6 +387,7 @@ text-align:left;
     float:right;
    right:20px;
 }
+
 /* .navMid{
     position:fixed;   
     display:float;  
@@ -412,15 +438,100 @@ div.fullImage {
 
 /* responsive */
 
-  @media (max-width: 900px) {
-    h1{
-    font-size:22px;    
+@media (max-width: 900px) {
+  header{
+    height:60px;
+  }
+  .h1Left{
+  font-size:22px;    
+  }
+  nav{
+  font-size:22px;    
+  }
+  body {
+    font-size: 22px;
+    margin-top:60px;
+  }
+  
+  h2 {
+    font-size: 22px;
+  }
+  
+  section {
+    display: block;
+  }
+  
+  section div {
+    width:  100%;
+  }
+  
+  section div.text {
+    padding: 30px;
+  }
+  
+  div.sideImage {
+    width:100%;
+  }
+
+
+  /* projektseitenstruktur */
+  img.projekt{
+    width:100vw;
+    margin-left:-8px;
+    height:50vh;
+  }
+.main-container {
+display: flex;
+width: 100%;
+height: 75%;
+max-height:100%;
+flex-direction: column;
+}
+
+.left-container {
+flex: 0 1 50%;
+min-height: 50%;
+min-width: 100%;
+padding-left:14px;
+}
+
+.right-container {
+flex: 0 1 50%;
+display: flex;
+height: 50%;
+max-width: 100%;
+flex-wrap: wrap;
+
+}
+
+.half-containers {
+flex: 0 0 100%;
+max-height: 50%;
+min-height: 50%;
+max-width: 100%;
+}
+.notes-containers {
+flex: 0 0 100%;
+/* height: 30vh; */
+padding-top:30%;
+}
+/* projektseite */
+
+}
+
+  @media (max-width: 600px) {
+    header{
+      height:50px;
+    }
+    .h1Left{
+    font-size:15px;    
     }
     nav{
-    font-size:22px;    
+    font-size:15px;    
     }
     body {
       font-size: 15px;
+      margin-top:60px;
     }
     
     h2 {
@@ -442,4 +553,48 @@ div.fullImage {
     div.sideImage {
       width:100%;
     }
+
+
+    /* projektseitenstruktur */
+    img.projekt{
+      width:100vw;
+      margin-left:-8px;
+      height:50vh;
+    }
+.main-container {
+  display: flex;
+  width: 100%;
+  height: 75%;
+  max-height:100%;
+  flex-direction: column;
+}
+
+.left-container {
+  flex: 0 1 50%;
+  min-height: 50%;
+  min-width: 100%;
+  padding-left:14px;
+}
+
+.right-container {
+  flex: 0 1 50%;
+  display: flex;
+  height: 50%;
+  max-width: 100%;
+  flex-wrap: wrap;
+
+}
+
+.half-containers {
+  flex: 0 0 100%;
+  max-height: 50%;
+  min-height: 50%;
+  max-width: 100%;
+}
+.notes-containers {
+  flex: 0 0 100%;
+  /* height: 30vh; */
+  padding-top:30%;
+}
+/* projektseite */
   }
