@@ -2,13 +2,13 @@ $(document).ready(function(){
 $('#filters').hide() 
 })
 
-$('.show-filters').on('click',function(){
-    $('#filters').toggle() 
-    $('header').toggleClass('expanded')
+$('.show-filters').click(function(){
+    $('#filters').toggle();
+    $('header').toggleClass('expanded');
     })
 
 
-$('.Corporate').on('click', function(){
+$('.corporate').on('click', function(){
 
 $('section.Corporate').show() 
 $('section.Grafik').hide() 
@@ -19,7 +19,7 @@ $('#filters').hide()
 $('header').toggleClass('expanded')
 })
 
-$('.Grafik').on('click', function(){
+$('.grafik').on('click', function(){
 
     $('section.Corporate').hide() 
     $('section.Grafik').show() 
@@ -30,7 +30,7 @@ $('.Grafik').on('click', function(){
     $('header').toggleClass('expanded')
     })
 
-    $('.Publik').on('click', function(){
+    $('.publik').on('click', function(){
 
         $('section.Corporate').hide() 
         $('section.Grafik').hide() 
@@ -41,7 +41,7 @@ $('.Grafik').on('click', function(){
         $('header').toggleClass('expanded')
         })
 
-        $('.Fotografie').on('click', function(){
+        $('.fotografie').on('click', function(){
 
             $('section.Corporate').hide() 
             $('section.Grafik').hide() 
@@ -52,7 +52,7 @@ $('.Grafik').on('click', function(){
             $('header').toggleClass('expanded')
             })
     
-            $('.Digital').on('click', function(){
+            $('.digital').on('click', function(){
 
                 $('section.Corporate').hide() 
                 $('section.Grafik').hide() 
