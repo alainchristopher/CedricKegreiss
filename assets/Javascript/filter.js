@@ -16,7 +16,12 @@ $('section.Publik').hide()
 $('section.Fotografie').hide() 
 $('section.Digital').hide()
 $('#filters').hide() 
-$('header').toggleClass('expanded')
+    $('header').toggleClass('expanded')
+    $("html, body").animate({
+
+        scrollTop: 0
+
+    }, "slow")
 })
 
 $('.grafik').on('click', function(){
@@ -28,6 +33,12 @@ $('.grafik').on('click', function(){
     $('section.Digital').hide()
     $('#filters').hide() 
     $('header').toggleClass('expanded')
+    
+        $("html, body").animate({
+
+            scrollTop: 0
+
+        }, "slow")
     })
 
     $('.publik').on('click', function(){
@@ -39,6 +50,11 @@ $('.grafik').on('click', function(){
         $('section.Digital').hide()
         $('#filters').hide() 
         $('header').toggleClass('expanded')
+        $("html, body").animate({
+
+            scrollTop: 0
+
+        }, "slow")
         })
 
         $('.fotografie').on('click', function(){
@@ -50,6 +66,11 @@ $('.grafik').on('click', function(){
             $('section.Digital').hide()
             $('#filters').hide() 
             $('header').toggleClass('expanded')
+            $("html, body").animate({
+
+                scrollTop: 0
+
+            }, "slow")
             })
     
             $('.digital').on('click', function(){
@@ -61,6 +82,11 @@ $('.grafik').on('click', function(){
                 $('section.Digital').show()
                 $('#filters').hide() 
                 $('header').toggleClass('expanded')
+                $("html, body").animate({
+
+                    scrollTop: 0
+
+                }, "slow")
                 })
 
 
@@ -71,4 +97,16 @@ $('.show-filters').on('click', function(){
 $('section').show() 
 
 })
+
+$('.h1Left').on('click', function () {
+
+    $('section').show()
+    $("html, body").animate({
+
+        scrollTop: 0
+
+    }, "slow")
+})
+
+
 

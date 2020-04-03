@@ -8,7 +8,7 @@
 }
 
 body{
-    margin-top:72px;
+    margin-top:70px;
     color:black;
     font-family: FavoritStd-Regular;
     font-weight:400;
@@ -56,6 +56,7 @@ overflow:hidden;
 a.showFilters{
   width:100%;
   height:72px;
+  cursor:pointer;
 }
 nav{
 font-size:30px;
@@ -66,11 +67,18 @@ float:right;
 text-align:right;
 margin-right:20px;
 padding-top:17px;
+cursor:pointer;
 }
+
+svg{
+  width:30px;
+  height:auto;
+}
+
 .infoButton{
 text-align:center;
 /* width:100vw; */
-left: 48.5%;
+left: 48%;
 right: auto;
 position:fixed;
 float:inline;
@@ -95,7 +103,7 @@ h3{
 margin-top:-20px;
 margin-left:3px;
 font-weight:400;
-font-size: 16px;
+font-size: 10px;
 }
 
 /* Fliesstext */
@@ -103,10 +111,10 @@ p{
 font-weight:200;
 float:left;
 line-height:1.35;
-font-size:22px;
+font-size:16px;
 margin-left:2px; 
 margin-top:20px;
-padding-right:20px;
+padding-right:60px;
 }
 #first{
 margin-top:-20px;
@@ -140,9 +148,9 @@ a{
 color:black;    
 text-decoration: none;
 }
-a:hover{
+/* a:hover{
 opacity:0.5;    
-}
+} */
 
 section.half {
     display: flex;
@@ -173,6 +181,16 @@ section.projectEnde{
 }
 section.projectCorporate{
   border-top:#BD687F solid 2px;
+  width:100vw;
+  margin-left:-8px;
+}
+section.projectFotografie{
+  border-top:#FD683A solid 2px;
+  width:100vw;
+  margin-left:-8px;
+}
+section.projectDigital{
+  border-top:#B77F32 solid 2px;
   width:100vw;
   margin-left:-8px;
 }
@@ -226,7 +244,7 @@ section.about{
     position: sticky;
     position: -webkit-sticky;
     top: 0;
-    margin-left:-8px;
+    margin-left:-20px;
   }
 
   img{
@@ -241,13 +259,73 @@ section.about{
     display:flex;
     flex-direction: row;
   }
-
+/* HIER BILDER GRÖSSE */
 img.projekt{
   object-fit: cover;
   width:50vw;
   margin:0px;
-  height:30vw;
+  height:33vw;
   margin-bottom:-5px;
+}
+
+div.image-Bord {
+  background-image: url(assets/imgs/Farbflächen/Bord_BD687F.png);
+}
+
+div.image-Bord:hover{
+  background-image: url(assets/imgs/2_5_Website_Freidorf_Weinetikette/2_5_c_Entwurfsphase/Grau_rgb_240.png);
+  transition-delay:0.1s;
+  transition-timing-function: ease
+  -webkit-animation: reveal 2s ease;
+  -webkit-animation-fill-mode: backwards;
+}
+
+div.image-Braun{
+  background-image: url(assets/imgs/Farbflächen/Braun_B77F32.png);
+}
+
+div.image-Braun:hover{
+  background-image: url(assets/imgs/2_5_Website_Freidorf_Weinetikette/2_5_c_Entwurfsphase/Grau_rgb_240.png);
+  transition-delay:0.1s;
+  transition-timing-function: ease
+  -webkit-animation: reveal 2s ease;
+  -webkit-animation-fill-mode: backwards;
+}
+
+div.image-Orange{
+  background-image: url(assets/imgs/Farbflächen/Orange_FD683A.png);
+}
+
+div.image-Orange:hover{
+  background-image: url(assets/imgs/2_5_Website_Freidorf_Weinetikette/2_5_c_Entwurfsphase/Grau_rgb_240.png);
+  transition-delay:0.1s;
+  transition-timing-function: ease
+  -webkit-animation: reveal 2s ease;
+  -webkit-animation-fill-mode: backwards;
+}
+
+div.image-Rot{
+  background-image: url(assets/imgs/Farbflächen/Rot_FC0048.png);
+}
+
+div.image-Rot:hover{
+  background-image: url(assets/imgs/2_5_Website_Freidorf_Weinetikette/2_5_c_Entwurfsphase/Grau_rgb_240.png);
+  transition-delay:0.1s;
+  transition-timing-function: ease
+  -webkit-animation: reveal 2s ease;
+  -webkit-animation-fill-mode: backwards;
+}
+
+div.image-Vio{
+  background-image: url(assets/imgs/Farbflächen/Vio_A23FA2.png);
+}
+
+div.image-Vio:hover{
+  background-image: url(assets/imgs/2_5_Website_Freidorf_Weinetikette/2_5_c_Entwurfsphase/Grau_rgb_240.png);
+  transition-delay:0.1s;
+  transition-timing-function: ease
+  -webkit-animation: reveal 2s ease;
+  -webkit-animation-fill-mode: backwards;
 }
 
   div.image-Fwein {
@@ -256,6 +334,18 @@ img.projekt{
   
   div.image-Fwein:hover{
     background-image: url(assets/imgs/2_5_Website_Freidorf_Weinetikette/2_5_a_Vorschaubild/2_5_Vorschaubild_Freidorf_Weinetikette.png);
+    transition-delay:0.1s;
+    transition-timing-function: ease
+    -webkit-animation: reveal 2s ease;
+    -webkit-animation-fill-mode: backwards;
+  }
+
+  div.image-Post {
+    background-image: url(assets/imgs/4_2_Website_Postkarten/4_2_a_Vorschaubild/4_2_Vorschaubild_Postkarten_fd683a.png);
+  }
+  
+  div.image-Post:hover{
+    background-image: url(assets/imgs/4_2_Website_Postkarten/4_2_a_Vorschaubild/4_2_Vorschaubild_Postkarten.png);
     transition-delay:0.1s;
     transition-timing-function: ease
     -webkit-animation: reveal 2s ease;
@@ -286,6 +376,94 @@ img.projekt{
     -webkit-animation-fill-mode: backwards;
   }
 
+  div.image-FPub {
+    background-image:cover;
+    background-image: url(assets/imgs/2_1_Website_Freidorf_Publikation/2_1_a_Vorschaubild/2_1_Vorschaubild_Freidorf_Publikation_FC0048.png);
+  }
+  div.image-FPub:hover {
+    background-image: url(assets/imgs/2_1_Website_Freidorf_Publikation/2_1_a_Vorschaubild/2_1_Vorschaubild_Freidorf_Publikation.png);
+    transition-delay:0.1s;
+    transition-timing-function: ease
+    -webkit-animation: reveal 2s ease;
+    -webkit-animation-fill-mode: backwards;
+  }
+
+  div.image-Theo {
+    background-image:cover;
+    background-image: url(assets/imgs/2_4_Website_Theodorsvitrine/2_4_a_Vorschaubild/2_4_Vorschaubild_Theodorskirche_FC0048.png);
+  }
+  div.image-Theo:hover {
+    background-image: url(assets/imgs/2_4_Website_Theodorsvitrine/2_4_a_Vorschaubild/2_4_Vorschaubild_Theodorskirche.png);
+    transition-delay:0.1s;
+    transition-timing-function: ease
+    -webkit-animation: reveal 2s ease;
+    -webkit-animation-fill-mode: backwards;
+  }
+
+  div.image-Lauf {
+    background-image:cover;
+    background-image: url(assets/imgs/3_1_Website_Laufen_erzaehlt_Geschichte/3_1_a_Vorschaubild/5_3_Vorschaubild_Laufen_erzaehlt_Geschichte_XXXXX.png);
+  }
+  div.image-Lauf:hover {
+    background-image: url(assets/imgs/3_1_Website_Laufen_erzaehlt_Geschichte/3_1_a_Vorschaubild/5_3_Vorschaubild_Laufen_erzaehlt_Geschichte.png);
+    transition-delay:0.1s;
+    transition-timing-function: ease
+    -webkit-animation: reveal 2s ease;
+    -webkit-animation-fill-mode: backwards;
+  }
+
+  div.image-Coop {
+    background-image:cover;
+    background-image: url(assets/imgs/5_1_Website_Freidorf_Website/5_1_a_Vorschaubild/5_1_a_Vorschaubild_Coop-Game_B77F32.png);
+  }
+  div.image-Coop:hover {
+    background-image: url(assets/imgs/5_1_Website_Freidorf_Website/5_1_a_Vorschaubild/5_1_a_Vorschaubild_Coop-Game_05.png);
+    transition-delay:0.1s;
+    transition-timing-function: ease
+    -webkit-animation: reveal 2s ease;
+    -webkit-animation-fill-mode: backwards;
+  }
+
+  div.image-Schatt {
+    background-image:cover;
+    background-image: url(assets/imgs/4_1_Website_Licht_und_Schatten/4_1_a_Vorschaubild/4_1_Vorschaubild_Licht_und_Schatten_FD683A.png);
+  }
+  div.image-Schatt:hover {
+    background-image: url(assets/imgs/4_1_Website_Licht_und_Schatten/4_1_a_Vorschaubild/4_1_Vorschaubild_Licht_und_Schatten.png);
+    transition-delay:0.1s;
+    transition-timing-function: ease
+    -webkit-animation: reveal 2s ease;
+    -webkit-animation-fill-mode: backwards;
+  }
+
+  div.image-Straf {
+    background-image:cover;
+    background-image: url(assets/imgs/2_2_Website_Strafgericht_Basel_Stadt/2_2_a_Vorschaubild/2_2_Projektbild_Strafgericht_farbig.png);
+  }
+  div.image-Straf:hover {
+    background-image: url(assets/imgs/2_2_Website_Strafgericht_Basel_Stadt/2_2_b_Projektbilder/2_2_Projektbild_Strafgericht_09.png);
+    transition-delay:0.1s;
+    transition-timing-function: ease
+    -webkit-animation: reveal 2s ease;
+    -webkit-animation-fill-mode: backwards;
+  }
+
+  div.image-Clau {
+    background-image:cover;
+    background-image: url(assets/imgs/2_6_Website_Editorial_ClaudiaBasel/2_6_a_Vorschaubild/2_1_Vorschaubild_Claudiabasel_FC0048.png);
+  }
+  div.image-Clau:hover {
+    background-image: url(assets/imgs/2_6_Website_Editorial_ClaudiaBasel/2_6_b_Projektbilder/2_6_Entwurfsphase_ClaudiaBasel_01.png);
+    transition-delay:0.1s;
+    transition-timing-function: ease
+    -webkit-animation: reveal 2s ease;
+    -webkit-animation-fill-mode: backwards;
+  }
+
+
+
+
+
   /* div.sideImage{
   -webkit-filter: blur(40px); 
   filter: blur(40px);
@@ -309,8 +487,9 @@ img.projekt{
   flex: 0 1 50%;
   min-height: 100%;
   min-width: 50%;
-  padding-left:14px;
+  padding-left:12px;
   align-items: flex-start;
+  background-color:white;
 }
 .text-container{
   position: -webkit-sticky;
@@ -319,7 +498,9 @@ img.projekt{
   top:3rem;
   padding-top:15px;
   background-color:white;
+  height:80vh;
 }
+
 
 .right-container {
   flex: 0 1 50%;
@@ -329,7 +510,9 @@ img.projekt{
   flex-wrap: wrap;
   align-items: flex-start;
 }
-
+#abstand{
+  padding-bottom:250px;
+}
 .half-containers {
   flex: 0 0 100%;
   max-height: 50%;
@@ -344,6 +527,7 @@ img.projekt{
 /* projektseite */
 
  footer{
+   padding:unset;
     bottom:-20px;
     height:30px;
     border-top:solid black 2px;
@@ -353,11 +537,16 @@ img.projekt{
 }
 
 p.footer{
+ padding:unset;
 font-size:22px;
 float:right;
 margin-bottom:22px;
 margin-right:20px;
 }
+
+/* footer.projektSeite{
+  height:32px;
+} */
 
 /* ProjektSeiten */
 
