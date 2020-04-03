@@ -169,12 +169,13 @@ section.half {
   margin-top:72px;
 } */
 
-section.about {
+/* section.about {
   height: 80vh;
-}
+} */
 
-div.imageAbout {
-  background-image: url(assets/imgs/about/Firmenportrait_Cedric_02.png);
+.imageabout {
+ object-fit: cover;
+ width:100vw;
 }
 
 section.projectPublik {
@@ -223,11 +224,6 @@ section.about {
   margin-left: 0px;
 }
 
-.sideimageA,
-.imgAbout {
-  height: 100vh;
-  object-fit: fill;
-}
 
 /* section:nth-child(odd) {
     flex-direction: row-reverse;
@@ -272,10 +268,27 @@ div.sideImage {
   top: 0;
   margin-left: -20px;
 }
+div.sideImageA {
+  /* height: 58vh; */
+  width: 50vw;
+  object-fit: cover;
+  top: 0;
+  margin-left: -30px;
+}
 
 img {
   object-fit: fill;
   height: 100vh;
+}
+.ignore-css {
+  all: unset;
+  width:50.5vw;
+  margin-bottom:-8px;
+}
+
+#imageAbout{
+  object-fit: fill;
+  width:50.5vw;
 }
 
 
