@@ -494,6 +494,19 @@ div.image-Clau:hover {
   -webkit-animation-fill-mode: backwards;
 }
 
+div.image-Plakatpro {
+  background-image: cover;
+  background-image: url(assets/imgs/2_7_Website_Plakatprojekt/2_7_a_Vorschaubild/2_7_b_Vorschubild_Plakat_Projekt_.png);
+}
+
+div.image-Plakatpro:hover {
+  background-image: url(assets/imgs/2_7_Website_Plakatprojekt/2_7_b_Projektbilder/2_7_b_Projektbild_Plakat_Projekt_02.png);
+  transition-delay: 0.1s;
+  transition-timing-function: ease -webkit-animation: reveal 2s ease;
+  -webkit-animation-fill-mode: backwards;
+}
+
+
 
 
 
