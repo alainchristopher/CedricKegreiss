@@ -507,6 +507,30 @@ div.image-Plakatpro:hover {
 }
 
 
+div.image-Viz {
+  background-image: cover;
+  background-image: url(assets/imgs/1_2_Website_Vizeli/1_2_a_Vorschaubild/1_2_a_Projektbild_Vizeli_BD687F.png);
+}
+
+div.image-Viz:hover {
+  background-image: url(assets/imgs/1_2_Website_Vizeli/1_2_a_Vorschaubild/1_2_a_Projektbild_Vizeli.png);
+  transition-delay: 0.1s;
+  transition-timing-function: ease -webkit-animation: reveal 2s ease;
+  -webkit-animation-fill-mode: backwards;
+}
+
+
+div.image-Tra {
+  background-image: cover;
+  background-image: url(assets/imgs/2_3_Website_Trafina_Privatbank/2_3_a_Vorschaubild/2_3_a_Vorschaubild_Privatbank_FC0048.png);
+}
+
+div.image-Tra:hover {
+  background-image: url(assets/imgs/2_3_Website_Trafina_Privatbank/2_3_a_Vorschaubild/2_3_a_Vorschaubild_Privatbank.png);
+  transition-delay: 0.1s;
+  transition-timing-function: ease -webkit-animation: reveal 2s ease;
+  -webkit-animation-fill-mode: backwards;
+}
 
 
 
