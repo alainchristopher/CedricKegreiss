@@ -100,6 +100,16 @@ h2 {
   padding-right: 20px;
 }
 
+/* Titel von Projekten */
+h4 {
+  font-weight: 400;
+  font-size: 30px;
+  /* line-height:1.4; */
+  margin-top:0px;
+  margin-left:-4px;
+  padding-right: 60px;
+}
+
 /* Kleiner text e.g. Konzept und Gestaltung */
 h3 {
   margin-top: -20px;
