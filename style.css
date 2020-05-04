@@ -10,7 +10,7 @@
 body {
   margin-top: 70px;
   color: black;
-  font-family: FavoritStd-Regular;
+  font-family: FavoritStd-Regular, sans-serif;
   font-weight: 400;
   font-size: 22px;
   line-height: 1.4;
