@@ -425,7 +425,7 @@ div.image-JKF {
 }
 
 div.image-JKF:hover {
-  background-image: url(assets/imgs/1_1_Website_JKF/1_1_a_Vorschaubild/1_1_Vorschautbild_JKF.jpg
+  background-image: url(assets/imgs/1_1_Website_JKF/1_1_a_Vorschaubild/1_1_Vorschautbild_JKF.jpg);
   transition-delay: 0.1s;
   transition-timing-function: ease -webkit-animation: reveal 2s ease;
   -webkit-animation-fill-mode: backwards;
