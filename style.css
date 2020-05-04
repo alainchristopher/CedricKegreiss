@@ -387,33 +387,33 @@ div.image-Vio:hover {
 }
 
 div.image-Fwein {
-  background-image: url(assets/imgs/2_5_Website_Freidorf_Weinetikette/2_5_a_Vorschaubild/2_5_Vorschaubild_Freidorf_Weinetikette_FC0048.png);
+  background-image: url(assets/imgs/2_5_Website_Freidorf_Weinetikette/2_5_a_Vorschaubild/2_5_Vorschaubild_Freidorf_Weinetikette_FC0048.jpg);
 }
 
 div.image-Fwein:hover {
-  background-image: url(assets/imgs/2_5_Website_Freidorf_Weinetikette/2_5_a_Vorschaubild/2_5_Vorschaubild_Freidorf_Weinetikette.png);
+  background-image: url(assets/imgs/2_5_Website_Freidorf_Weinetikette/2_5_a_Vorschaubild/2_5_Vorschaubild_Freidorf_Weinetikette.jpg);
   transition-delay: 0.1s;
   transition-timing-function: ease -webkit-animation: reveal 2s ease;
   -webkit-animation-fill-mode: backwards;
 }
 
 div.image-Post {
-  background-image: url(assets/imgs/4_2_Website_Postkarten/4_2_a_Vorschaubild/4_2_Vorschaubild_Postkarten_fd683a.png);
+  background-image: url(assets/imgs/4_2_Website_Postkarten/4_2_a_Vorschaubild/4_2_Vorschaubild_Postkarten_fd683a.jpg);
 }
 
 div.image-Post:hover {
-  background-image: url(assets/imgs/4_2_Website_Postkarten/4_2_a_Vorschaubild/4_2_Vorschaubild_Postkarten.png);
+  background-image: url(assets/imgs/4_2_Website_Postkarten/4_2_a_Vorschaubild/4_2_Vorschaubild_Postkarten.jpg);
   transition-delay: 0.1s;
   transition-timing-function: ease -webkit-animation: reveal 2s ease;
   -webkit-animation-fill-mode: backwards;
 }
 
 div.image-FinfoTafel {
-  background-image: url(assets/imgs/3_2_Website_Freidorf_Informationstafeln/3_2_a_Vorschaubild/3_2_Vorschaubild_Freidorf_Informationstafeln_A23FA2.png);
+  background-image: url(assets/imgs/3_2_Website_Freidorf_Informationstafeln/3_2_a_Vorschaubild/3_2_Vorschaubild_Freidorf_Informationstafeln_A23FA2.jpg);
 }
 
 div.image-FinfoTafel:hover {
-  background-image: url(assets/imgs/3_2_Website_Freidorf_Informationstafeln/3_2_a_Vorschaubild/3_2_Vorschaubild_Freidorf_Informationstafeln.png);
+  background-image: url(assets/imgs/3_2_Website_Freidorf_Informationstafeln/3_2_a_Vorschaubild/3_2_Vorschaubild_Freidorf_Informationstafeln.jpg);
   transition-delay: 0.1s;
   transition-timing-function: ease -webkit-animation: reveal 2s ease;
   -webkit-animation-fill-mode: backwards;
@@ -433,11 +433,11 @@ div.image-JKF:hover {
 
 div.image-FPub {
   background-image: cover;
-  background-image: url(assets/imgs/2_1_Website_Freidorf_Publikation/2_1_a_Vorschaubild/2_1_Vorschaubild_Freidorf_Publikation_FC0048.png);
+  background-image: url(assets/imgs/2_1_Website_Freidorf_Publikation/2_1_a_Vorschaubild/2_1_Vorschaubild_Freidorf_Publikation_FC0048.jpg);
 }
 
 div.image-FPub:hover {
-  background-image: url(assets/imgs/2_1_Website_Freidorf_Publikation/2_1_a_Vorschaubild/2_1_Vorschaubild_Freidorf_Publikation.png);
+  background-image: url(assets/imgs/2_1_Website_Freidorf_Publikation/2_1_a_Vorschaubild/2_1_Vorschaubild_Freidorf_Publikation.jpg);
   transition-delay: 0.1s;
   transition-timing-function: ease -webkit-animation: reveal 2s ease;
   -webkit-animation-fill-mode: backwards;
@@ -445,11 +445,11 @@ div.image-FPub:hover {
 
 div.image-Theo {
   background-image: cover;
-  background-image: url(assets/imgs/2_4_Website_Theodorsvitrine/2_4_a_Vorschaubild/2_4_Vorschaubild_Theodorskirche_FC0048.png);
+  background-image: url(assets/imgs/2_4_Website_Theodorsvitrine/2_4_a_Vorschaubild/2_4_Vorschaubild_Theodorskirche_FC0048.jpg);
 }
 
 div.image-Theo:hover {
-  background-image: url(assets/imgs/2_4_Website_Theodorsvitrine/2_4_a_Vorschaubild/2_4_Vorschaubild_Theodorskirche.png);
+  background-image: url(assets/imgs/2_4_Website_Theodorsvitrine/2_4_a_Vorschaubild/2_4_Vorschaubild_Theodorskirche.jpg);
   transition-delay: 0.1s;
   transition-timing-function: ease -webkit-animation: reveal 2s ease;
   -webkit-animation-fill-mode: backwards;
@@ -457,11 +457,11 @@ div.image-Theo:hover {
 
 div.image-Lauf {
   background-image: cover;
-  background-image: url(assets/imgs/3_1_Website_Laufen_erzaehlt_Geschichte/3_1_a_Vorschaubild/5_3_Vorschaubild_Laufen_erzaehlt_Geschichte_XXXXX.png);
+  background-image: url(assets/imgs/3_1_Website_Laufen_erzaehlt_Geschichte/3_1_a_Vorschaubild/5_3_Vorschaubild_Laufen_erzaehlt_Geschichte_XXXXX.jpg);
 }
 
 div.image-Lauf:hover {
-  background-image: url(assets/imgs/3_1_Website_Laufen_erzaehlt_Geschichte/3_1_a_Vorschaubild/5_3_Vorschaubild_Laufen_erzaehlt_Geschichte.png);
+  background-image: url(assets/imgs/3_1_Website_Laufen_erzaehlt_Geschichte/3_1_a_Vorschaubild/5_3_Vorschaubild_Laufen_erzaehlt_Geschichte.jpg);
   transition-delay: 0.1s;
   transition-timing-function: ease -webkit-animation: reveal 2s ease;
   -webkit-animation-fill-mode: backwards;
@@ -469,11 +469,11 @@ div.image-Lauf:hover {
 
 div.image-Coop {
   background-image: cover;
-  background-image: url(assets/imgs/5_1_Website_Freidorf_Website/5_1_a_Vorschaubild/5_1_a_Vorschaubild_Coop-Game_B77F32.png);
+  background-image: url(assets/imgs/5_1_Website_Freidorf_Website/5_1_a_Vorschaubild/5_1_a_Vorschaubild_Coop-Game_B77F32.jpg);
 }
 
 div.image-Coop:hover {
-  background-image: url(assets/imgs/5_1_Website_Freidorf_Website/5_1_b_Projektbilder/5_1_b_Projektbild_Coop-Game_15.png);
+  background-image: url(assets/imgs/5_1_Website_Freidorf_Website/5_1_b_Projektbilder/5_1_b_Projektbild_Coop-Game_15.jpg);
   transition-delay: 0.1s;
   transition-timing-function: ease -webkit-animation: reveal 2s ease;
   -webkit-animation-fill-mode: backwards;
@@ -481,11 +481,11 @@ div.image-Coop:hover {
 
 div.image-Schatt {
   background-image: cover;
-  background-image: url(assets/imgs/4_1_Website_Licht_und_Schatten/4_1_a_Vorschaubild/4_1_Vorschaubild_Licht_und_Schatten_FD683A.png);
+  background-image: url(assets/imgs/4_1_Website_Licht_und_Schatten/4_1_a_Vorschaubild/4_1_Vorschaubild_Licht_und_Schatten_FD683A.jpg);
 }
 
 div.image-Schatt:hover {
-  background-image: url(assets/imgs/4_1_Website_Licht_und_Schatten/4_1_a_Vorschaubild/4_1_Vorschaubild_Licht_und_Schatten.png);
+  background-image: url(assets/imgs/4_1_Website_Licht_und_Schatten/4_1_a_Vorschaubild/4_1_Vorschaubild_Licht_und_Schatten.jpg);
   transition-delay: 0.1s;
   transition-timing-function: ease -webkit-animation: reveal 2s ease;
   -webkit-animation-fill-mode: backwards;
@@ -493,11 +493,11 @@ div.image-Schatt:hover {
 
 div.image-Straf {
   background-image: cover;
-  background-image: url(assets/imgs/2_2_Website_Strafgericht_Basel_Stadt/2_2_a_Vorschaubild/2_2_Projektbild_Strafgericht_farbig.png);
+  background-image: url(assets/imgs/2_2_Website_Strafgericht_Basel_Stadt/2_2_a_Vorschaubild/2_2_Projektbild_Strafgericht_farbig.jpg);
 }
 
 div.image-Straf:hover {
-  background-image: url(assets/imgs/2_2_Website_Strafgericht_Basel_Stadt/2_2_b_Projektbilder/2_2_Projektbild_Strafgericht_09.png);
+  background-image: url(assets/imgs/2_2_Website_Strafgericht_Basel_Stadt/2_2_b_Projektbilder/2_2_Projektbild_Strafgericht_09.jpg);
   transition-delay: 0.1s;
   transition-timing-function: ease -webkit-animation: reveal 2s ease;
   -webkit-animation-fill-mode: backwards;
@@ -505,11 +505,11 @@ div.image-Straf:hover {
 
 div.image-Clau {
   background-image: cover;
-  background-image: url(assets/imgs/2_6_Website_Editorial_ClaudiaBasel/2_6_a_Vorschaubild/2_1_Vorschaubild_Claudiabasel_FC0048.png);
+  background-image: url(assets/imgs/2_6_Website_Editorial_ClaudiaBasel/2_6_a_Vorschaubild/2_1_Vorschaubild_Claudiabasel_FC0048.jpg);
 }
 
 div.image-Clau:hover {
-  background-image: url(assets/imgs/2_6_Website_Editorial_ClaudiaBasel/2_6_b_Projektbilder/2_6_Entwurfsphase_ClaudiaBasel_01.png);
+  background-image: url(assets/imgs/2_6_Website_Editorial_ClaudiaBasel/2_6_b_Projektbilder/2_6_Entwurfsphase_ClaudiaBasel_01.jpg);
   transition-delay: 0.1s;
   transition-timing-function: ease -webkit-animation: reveal 2s ease;
   -webkit-animation-fill-mode: backwards;
@@ -517,11 +517,11 @@ div.image-Clau:hover {
 
 div.image-Plakatpro {
   background-image: cover;
-  background-image: url(assets/imgs/2_7_Website_Plakatprojekt/2_7_a_Vorschaubild/2_7_b_Vorschubild_Plakat_Projekt_.png);
+  background-image: url(assets/imgs/2_7_Website_Plakatprojekt/2_7_a_Vorschaubild/2_7_b_Vorschubild_Plakat_Projekt_.jpg);
 }
 
 div.image-Plakatpro:hover {
-  background-image: url(assets/imgs/2_7_Website_Plakatprojekt/2_7_b_Projektbilder/2_7_b_Projektbild_Plakat_Projekt_02.png);
+  background-image: url(assets/imgs/2_7_Website_Plakatprojekt/2_7_b_Projektbilder/2_7_b_Projektbild_Plakat_Projekt_02.jpg);
   transition-delay: 0.1s;
   transition-timing-function: ease -webkit-animation: reveal 2s ease;
   -webkit-animation-fill-mode: backwards;
@@ -530,11 +530,11 @@ div.image-Plakatpro:hover {
 
 div.image-Viz {
   background-image: cover;
-  background-image: url(assets/imgs/1_2_Website_Vizeli/1_2_a_Vorschaubild/1_2_a_Projektbild_Vizeli_BD687F.png);
+  background-image: url(assets/imgs/1_2_Website_Vizeli/1_2_a_Vorschaubild/1_2_a_Projektbild_Vizeli_BD687F.jpg);
 }
 
 div.image-Viz:hover {
-  background-image: url(assets/imgs/1_2_Website_Vizeli/1_2_a_Vorschaubild/1_2_a_Projektbild_Vizeli.png);
+  background-image: url(assets/imgs/1_2_Website_Vizeli/1_2_a_Vorschaubild/1_2_a_Projektbild_Vizeli.jpg);
   transition-delay: 0.1s;
   transition-timing-function: ease -webkit-animation: reveal 2s ease;
   -webkit-animation-fill-mode: backwards;
@@ -543,11 +543,11 @@ div.image-Viz:hover {
 
 div.image-Tra {
   background-image: cover;
-  background-image: url(assets/imgs/2_3_Website_Trafina_Privatbank/2_3_a_Vorschaubild/2_3_a_Vorschaubild_Privatbank_FC0048.png);
+  background-image: url(assets/imgs/2_3_Website_Trafina_Privatbank/2_3_a_Vorschaubild/2_3_a_Vorschaubild_Privatbank_FC0048.jpg);
 }
 
 div.image-Tra:hover {
-  background-image: url(assets/imgs/2_3_Website_Trafina_Privatbank/2_3_a_Vorschaubild/2_3_a_Vorschaubild_Privatbank.png);
+  background-image: url(assets/imgs/2_3_Website_Trafina_Privatbank/2_3_a_Vorschaubild/2_3_a_Vorschaubild_Privatbank.jpg);
   transition-delay: 0.1s;
   transition-timing-function: ease -webkit-animation: reveal 2s ease;
   -webkit-animation-fill-mode: backwards;
